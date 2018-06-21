@@ -1,0 +1,27 @@
+
+
+#main{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+#orderPage{
+    position: relative;
+    left: 30%;
+    top:5%;
+}
+
+#trash{
+    position: absolute;
+    left: 30%;
+}
+
+#edit{
+    position: absolute;
+    left: 27%; 
+}
+
+i:hover{
+    cursor: pointer;
+}

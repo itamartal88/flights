@@ -1,0 +1,48 @@
+{"_id":{"$oid":"5b2ab4fb0418224504df0679"},"passengers":[{"$oid":"5b2ab4fa0418224504df0678"},{"$oid":"5b2ab50e0418224504df067c"},{"$oid":"5b2ae8ce0cfc792cec7b40a5"}],"destination":"Barcelona","date":{"$date":"2018-06-19T21:00:00.000Z"},"CountryOfOrigin":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2ab4fb0418224504df067a"},"passengers":[{"$oid":"5b2ab4fa0418224504df0678"},{"$oid":"5b2ab50e0418224504df067c"}],"destination":"Tel aviv","date":{"$date":"2018-06-20T21:00:00.000Z"},"CountryOfOrigin":"Barcelona","__v":0}
+{"_id":{"$oid":"5b2ab8159e925983ad1b4518"},"date":{"$date":"2018-06-20T20:10:02.000Z"},"destination":"Barcelona","__v":0}
+{"_id":{"$oid":"5b2ab8169e925983ad1b451d"},"date":{"$date":"2018-06-21T20:10:02.000Z"},"destination":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2abb6aaec3a2418071189e"},"passengers":[{"$oid":"5b2abb6aaec3a2418071189d"},{"$oid":"5b2b36b15472b23ed80db865"}],"destination":"Rhodes","date":{"$date":"2018-06-20T21:00:00.000Z"},"CountryOfOrigin":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2abb6aaec3a2418071189f"},"passengers":[{"$oid":"5b2abb6aaec3a2418071189d"}],"destination":"Tel aviv","date":{"$date":"2018-06-21T21:00:00.000Z"},"CountryOfOrigin":"Rhodes","__v":0}
+{"_id":{"$oid":"5b2abbac9e925983ad1b5b10"},"date":{"$date":"2018-06-15T20:32:37.000Z"},"destination":"Rome","__v":0}
+{"_id":{"$oid":"5b2abbac9e925983ad1b5b13"},"date":{"$date":"2018-06-16T20:32:37.000Z"},"destination":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2acc2d839b984b8ce62bea"},"passengers":[{"$oid":"5b2acc2d839b984b8ce62be9"}],"destination":"Berlin","date":{"$date":"2018-07-13T21:00:00.000Z"},"CountryOfOrigin":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2acc2d839b984b8ce62beb"},"passengers":[{"$oid":"5b2acc2d839b984b8ce62be9"}],"destination":"Tel aviv","date":{"$date":"2018-07-17T21:00:00.000Z"},"CountryOfOrigin":"Berlin","__v":0}
+{"_id":{"$oid":"5b2ad192b170da46309b84b9"},"passengers":[{"$oid":"5b2ad192b170da46309b84b8"},{"$oid":"5b2aed380cfc792cec7b40af"}],"destination":"Berlin","date":{"$date":"2018-06-27T21:00:00.000Z"},"CountryOfOrigin":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2ad192b170da46309b84ba"},"passengers":[{"$oid":"5b2ad192b170da46309b84b8"}],"destination":"Tel aviv","date":{"$date":"2018-06-28T21:00:00.000Z"},"CountryOfOrigin":"Berlin","__v":0}
+{"_id":{"$oid":"5b2ad1bc9e925983ad1be7ec"},"date":{"$date":"2018-07-23T22:13:16.000Z"},"destination":"Rhodes","__v":0}
+{"_id":{"$oid":"5b2ad1bc9e925983ad1be7ef"},"date":{"$date":"2018-07-27T22:13:16.000Z"},"destination":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2addcb3544cb4f088516aa"},"passengers":[{"$oid":"5b2addcb3544cb4f088516a9"}],"destination":"Berlin","date":{"$date":"2018-06-19T21:00:00.000Z"},"CountryOfOrigin":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2addcb3544cb4f088516ab"},"passengers":[{"$oid":"5b2addcb3544cb4f088516a9"}],"destination":"Tel aviv","date":{"$date":"2018-06-21T21:00:00.000Z"},"CountryOfOrigin":"Berlin","__v":0}
+{"_id":{"$oid":"5b2addee9e925983ad1bffec"},"date":{"$date":"2018-06-27T23:05:29.000Z"},"destination":"Rhodes","__v":0}
+{"_id":{"$oid":"5b2addee9e925983ad1bffef"},"date":{"$date":"2018-06-29T23:05:29.000Z"},"destination":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2adf293ebed252744164b5"},"passengers":[{"$oid":"5b2adf293ebed252744164b4"}],"destination":"Rome","date":{"$date":"2018-06-24T21:00:00.000Z"},"CountryOfOrigin":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2adf293ebed252744164b6"},"passengers":[{"$oid":"5b2adf293ebed252744164b4"}],"destination":"Tel aviv","date":{"$date":"2018-07-09T21:00:00.000Z"},"CountryOfOrigin":"Rome","__v":0}
+{"_id":{"$oid":"5b2ae6a40cfc792cec7b409e"},"passengers":[{"$oid":"5b2ae6a40cfc792cec7b409d"}],"destination":"Paris","date":{"$date":"2018-06-19T21:00:00.000Z"},"CountryOfOrigin":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2ae6a40cfc792cec7b409f"},"passengers":[{"$oid":"5b2ae6a40cfc792cec7b409d"}],"destination":"Tel aviv","date":{"$date":"2018-06-21T21:00:00.000Z"},"CountryOfOrigin":"Paris","__v":0}
+{"_id":{"$oid":"5b2ae7c20cfc792cec7b40a2"},"passengers":[{"$oid":"5b2ae7c20cfc792cec7b40a1"},{"$oid":"5b2b414c5472b23ed80db86c"},{"$oid":"5b2b42755472b23ed80db86f"}],"destination":"Rome","date":{"$date":"2018-06-20T21:00:00.000Z"},"CountryOfOrigin":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2ae7c20cfc792cec7b40a3"},"passengers":[{"$oid":"5b2ae7c20cfc792cec7b40a1"}],"destination":"Tel aviv","date":{"$date":"2018-06-21T21:00:00.000Z"},"CountryOfOrigin":"Rome","__v":0}
+{"_id":{"$oid":"5b2ae8cf0cfc792cec7b40a6"},"passengers":[{"$oid":"5b2ae8ce0cfc792cec7b40a5"}],"destination":"Tel aviv","date":{"$date":"2018-06-21T21:00:00.000Z"},"CountryOfOrigin":"Barcelona","__v":0}
+{"_id":{"$oid":"5b2aeb200cfc792cec7b40a9"},"passengers":[{"$oid":"5b2aeb200cfc792cec7b40a8"},{"$oid":"5b2b34fa5472b23ed80db861"},{"$oid":"5b2b3e715472b23ed80db868"},{"$oid":"5b2b43c95472b23ed80db871"}],"destination":"Paris","date":{"$date":"2018-06-20T21:00:00.000Z"},"CountryOfOrigin":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2aeb200cfc792cec7b40aa"},"passengers":[{"$oid":"5b2aeb200cfc792cec7b40a8"},{"$oid":"5b2b34fa5472b23ed80db861"},{"$oid":"5b2b3e715472b23ed80db868"},{"$oid":"5b2b43c95472b23ed80db871"}],"destination":"Tel aviv","date":{"$date":"2018-06-22T21:00:00.000Z"},"CountryOfOrigin":"Paris","__v":0}
+{"_id":{"$oid":"5b2aecc20cfc792cec7b40ac"},"passengers":[{"$oid":"5b2aecc20cfc792cec7b40ab"},{"$oid":"5b2b5a5893986a50e096f1a9"}],"destination":"Paris","date":{"$date":"2018-06-21T21:00:00.000Z"},"CountryOfOrigin":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2aecc20cfc792cec7b40ad"},"passengers":[{"$oid":"5b2aecc20cfc792cec7b40ab"}],"destination":"Tel aviv","date":{"$date":"2018-06-28T21:00:00.000Z"},"CountryOfOrigin":"Paris","__v":0}
+{"_id":{"$oid":"5b2aed380cfc792cec7b40b0"},"passengers":[{"$oid":"5b2aed380cfc792cec7b40af"},{"$oid":"5b2b587c5662335340386b5e"}],"destination":"Tel aviv","date":{"$date":"2018-06-29T21:00:00.000Z"},"CountryOfOrigin":"Berlin","__v":0}
+{"_id":{"$oid":"5b2aed609e925983ad1c696d"},"date":{"$date":"2018-06-28T00:11:10.000Z"},"destination":"Paris","__v":0}
+{"_id":{"$oid":"5b2aed609e925983ad1c6970"},"date":{"$date":"2018-06-30T00:11:10.000Z"},"destination":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2aedf75472b23ed80db85a"},"passengers":[{"$oid":"5b2aedf75472b23ed80db859"},{"$oid":"5b2b30b65472b23ed80db85d"},{"$oid":"5b2b33925472b23ed80db85f"},{"$oid":"5b2b364f5472b23ed80db863"},{"$oid":"5b2b40da5472b23ed80db86a"},{"$oid":"5b2b57735662335340386b5c"},{"$oid":"5b2b587c5662335340386b5e"}],"destination":"Berlin","date":{"$date":"2018-06-20T21:00:00.000Z"},"CountryOfOrigin":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2aedf75472b23ed80db85b"},"passengers":[{"$oid":"5b2aedf75472b23ed80db859"},{"$oid":"5b2b30b65472b23ed80db85d"},{"$oid":"5b2b33925472b23ed80db85f"},{"$oid":"5b2b364f5472b23ed80db863"},{"$oid":"5b2b40da5472b23ed80db86a"}],"destination":"Tel aviv","date":{"$date":"2018-06-22T21:00:00.000Z"},"CountryOfOrigin":"Berlin","__v":0}
+{"_id":{"$oid":"5b2aee239e925983ad1c6e7b"},"date":{"$date":"2018-06-27T00:14:06.000Z"},"destination":"Paris","__v":0}
+{"_id":{"$oid":"5b2aee239e925983ad1c6e7e"},"date":{"$date":"2018-06-29T00:14:06.000Z"},"destination":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2b36b15472b23ed80db866"},"passengers":[{"$oid":"5b2b36b15472b23ed80db865"}],"destination":"Tel aviv","date":{"$date":"2018-06-22T21:00:00.000Z"},"CountryOfOrigin":"Rhodes","__v":0}
+{"_id":{"$oid":"5b2b414c5472b23ed80db86d"},"passengers":[{"$oid":"5b2b414c5472b23ed80db86c"},{"$oid":"5b2b42755472b23ed80db86f"}],"destination":"Tel aviv","date":{"$date":"2018-06-22T21:00:00.000Z"},"CountryOfOrigin":"Rome","__v":0}
+{"_id":{"$oid":"5b2b531417ce9c4ad47409e8"},"passengers":[{"$oid":"5b2b531417ce9c4ad47409e7"}],"destination":"Barcelona","date":{"$date":"2018-06-22T21:00:00.000Z"},"CountryOfOrigin":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2b531417ce9c4ad47409e9"},"passengers":[{"$oid":"5b2b531417ce9c4ad47409e7"}],"destination":"Tel aviv","date":{"$date":"2018-06-29T21:00:00.000Z"},"CountryOfOrigin":"Barcelona","__v":0}
+{"_id":{"$oid":"5b2b543f9e925983ad1d1225"},"date":{"$date":"2018-06-23T07:23:13.000Z"},"destination":"Barcelona","__v":0}
+{"_id":{"$oid":"5b2b543f9e925983ad1d1228"},"date":{"$date":"2018-06-30T07:23:13.000Z"},"destination":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2b57745662335340386b5d"},"passengers":[{"$oid":"5b2b57735662335340386b5c"}],"destination":"Tel aviv","date":{"$date":"2018-07-23T21:00:00.000Z"},"CountryOfOrigin":"Berlin","__v":0}
+{"_id":{"$oid":"5b2b579a9e925983ad1d2848"},"date":{"$date":"2018-06-21T07:44:27.000Z"},"destination":"Paris","__v":0}
+{"_id":{"$oid":"5b2b579a9e925983ad1d284b"},"date":{"$date":"2018-07-24T07:44:27.000Z"},"destination":"Tel aviv","__v":0}
+{"_id":{"$oid":"5b2b5a5993986a50e096f1aa"},"passengers":[{"$oid":"5b2b5a5893986a50e096f1a9"}],"destination":"Tel aviv","date":{"$date":"2018-07-21T21:00:00.000Z"},"CountryOfOrigin":"Paris","__v":0}
+{"_id":{"$oid":"5b2b5a7f9e925983ad1d3ba9"},"date":{"$date":"2018-06-21T07:56:49.000Z"},"destination":"Berlin","__v":0}
+{"_id":{"$oid":"5b2b5a7f9e925983ad1d3bac"},"date":{"$date":"2018-06-23T07:56:49.000Z"},"destination":"Tel aviv","__v":0}

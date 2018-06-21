@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5b296376cd648c58f7fad6d9"},"name":"Barcelona","img":"barcelona.jpg","price":350}
+{"_id":{"$oid":"5b296380cd648c58f7fad6da"},"name":"Paris","img":"paris.jpg","price":400}
+{"_id":{"$oid":"5b296399cd648c58f7fad6db"},"name":"Berlin","img":"berlin1.jpg","price":320}
+{"_id":{"$oid":"5b2963b2cd648c58f7fad6dc"},"name":"Rome","img":"rome.jpg","price":280}
+{"_id":{"$oid":"5b2963d8cd648c58f7fad6dd"},"name":"Rhodes","img":"rhodes.jpg","price":220}

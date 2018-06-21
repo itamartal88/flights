@@ -1,0 +1,56 @@
+
+
+
+<router-outlet></router-outlet>
+<app-top-bar></app-top-bar>
+<div id="main" [ngStyle]="{'background-image': getUrl()}">
+<div id='orderPage'>
+
+<form *ngIf='searchOrder'>
+    <div class="form-group">
+        <input type="text" [(ngModel)]="orderNumber" name="num" class="col-3 form-control" id="orderNum" placeholder="Insert Order Number">
+      </div>
+      <button type="submit" (click)='searchOrderFlight()' class="btn btn-danger">Edit Order</button>
+</form>
+
+<div *ngIf='orderExcist'>
+
+  <div *ngFor="let order of editOrderDetails">
+    <div>
+      <i id="edit" (click)="editOrder()" class="fas fa-edit"></i>
+      <i id='trash' (click)="deleteOrder()" class="fas fa-trash-alt"></i>
+    </div>
+
+      <span>Destination</span><select [(ngModel)]="order.destination">
+      <option [value]="order.destination">{{order.destination}}</option>
+      <option *ngFor='let dest of allDestnations' [value]="dest.name" [ngStyle]="{'display':dest.name === order.destination ? 'none' : 'block'}">{{dest.name}}</option>
+    </select><br><br>
+
+  <p >Total Price:{{totalPrice | currency: "USD"}}</p>
+  <span>People</span><select (change)="changePersonNum()" [(ngModel)]="order.numOfPersons">
+      <option [value]="order.numOfPersons">{{order.numOfPersons}}</option>
+      <option *ngFor='let person of numOfPersonArray' [value]="person" [ngStyle]="{'display':person === order.numOfPersons ? 'none' : 'block'}">{{person}}</option>
+    </select><br><br>
+
+  <p>Dates:{{order.forthDate | date:"dd-MM-yyyy"}}<->{{order.backDate | date:"dd-MM-yyyy"}}</p>
+  <div class="row">
+      <div class="col-xs-12 col-8 col-md-4 form-group">
+        <input placeholder="change Dates" class="form-control" #drp="bsDaterangepicker" [bsConfig]="datePickerConfig" bsDaterangepicker [(ngModel)]="bsRangeValue">
+      </div>
+    </div><br>
+
+      <div class="form-check">
+      <input [(ngModel)]="order.baggageIncloud" (change)='changeBaggege($event)'  type="checkbox" class="form-check-input" id="foodCheck">
+      <label class="form-check-label" for="foodCheck">Include food</label>
+     </div><br>
+
+    <div class="form-check">
+      <input [(ngModel)]="order.foodIncloud" (change)='changeFood($event)' type="checkbox" class="form-check-input" id="baggegeCheck">
+      <label class="form-check-label" for="baggegeCheck">Include baggage</label>
+    </div><br>
+  </div>
+
+</div>
+</div>
+
+</div>

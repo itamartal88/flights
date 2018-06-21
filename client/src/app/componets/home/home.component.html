@@ -1,0 +1,12 @@
+
+
+<router-outlet></router-outlet>
+<app-top-bar></app-top-bar>
+<div id="main" [ngStyle]="{'background-image': getUrl()}">
+<h1><u>Our Destinations</u></h1>
+<div class='destDiv' *ngFor='let dest of Destinations'>
+ <img src='http://localhost:4000/pictures/{{dest.img}}' />
+ <div class="top-left">{{dest.name}}</div>
+ <div class="bottom-right">from {{dest.price | currency: "USD"}}</div>
+</div>
+</div>

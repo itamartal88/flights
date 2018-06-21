@@ -1,0 +1,52 @@
+
+<router-outlet></router-outlet>
+<app-top-bar></app-top-bar>
+
+<div id="main" [ngStyle]="{'background-image': getUrl()}">
+  <div id='formPage' *ngIf='stepOne'>
+   <div class="row">
+      <div class="col-xs-12 col-12 col-md-4 form-group">
+        <input (change)='changeDate()' placeholder="Pick Dates" [bsConfig]="datePickerConfig" class="col-7 form-control" #drp="bsDaterangepicker" bsDaterangepicker [(ngModel)]="dateRange">
+      </div>
+      </div>
+
+   
+     <br><br>
+      <div class="form-group">
+          <label>Num Of Persons</label>
+        <select (change)="changePersonNum()" [(ngModel)]="numOfPersonChosen"  class="form-control">
+          <option *ngFor="let number of numOfPersonArray" value={{number}}>{{number + ' adults'}} </option>
+        </select>
+        </div><br><br><br>
+
+        <div class="form-group">
+          <label>destanations</label>
+          <select  (change)="changDest()" [(ngModel)]="chosenDestination" class="form-control">
+            <option *ngFor="let city of destanations" value={{city.name}}>{{city.name}} </option>
+          </select>
+          </div><br><br><br><br>
+
+        <div class="form-check">
+          <input (change)='changeFood($event)' [(ngModel)]="foodChecked" type="checkbox" class="form-check-input" id="foodCheck">
+          <label class="form-check-label" for="foodCheck">Include food</label>
+        </div><br>
+        <div class="form-check">
+          <input id='baggege' (change)='changeBaggege($event)' [(ngModel)]="baggegeCheck" type="checkbox" class="form-check-input" id="baggegeCheck">
+          <label class="form-check-label" for="baggegeCheck">Include baggage</label>
+        </div><br>
+
+        <span>Total Price:{{totalPrice | currency: "USD"}}</span><br>
+        <button type="submit" (click)='goToStepTwo()' class="btn btn-danger">Next</button>
+    
+  </div>
+
+  <div id='stepTwo' *ngIf='stepTwo'>
+      <p>Private Details</p>
+      <input type="text" (change)='changeName()' [(ngModel)]="costumerName"  placeholder="Your Name"><br><br>
+      <input type="text" (change)='changeMail()' [(ngModel)]="costumerEmail"  placeholder="Email Address"><br><br>
+      <button id='backButton' (click)='backToStepOne()' type="button" class="btn btn-danger">Back</button>
+      <button type="button" (click)='orderFligt()' class="btn btn-danger">Order</button>
+  </div>
+  </div>
+  
+  
